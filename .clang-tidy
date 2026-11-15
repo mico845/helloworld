@@ -1,0 +1,15 @@
+# .clang-tidy
+# Clang-Tidy Checks: https://clang.llvm.org/extra/clang-tidy/checks/list.html
+---
+Checks: >
+  -*,
+  clang-analyzer-*,
+  bugprone-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  misc-*,
+  readability-*,
+  cppcoreguidelines-*,
+  google-*,
+  -modernize-use-trailing-return-type
