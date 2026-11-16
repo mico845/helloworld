@@ -7,4 +7,7 @@ add_rules("plugin.compile_commands.autoupdate", {outputdir = "build"})
 set_languages("cxx23")
 set_warnings("all", "extra", "pedantic", "error")
 
+add_requires("gtest", {configs = {main = true}})
+
 includes("src")
+includes("tests")

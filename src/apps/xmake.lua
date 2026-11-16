@@ -1,4 +1,5 @@
 target("helloworld")
   set_kind("binary")
+  set_policy("build.c++.modules", true)
   add_files("*.cc")
 target_end()

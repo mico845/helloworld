@@ -1,0 +1,4 @@
+InheritParentConfig: true
+Checks: >
+  -bugprone-throwing-static-initialization,
+  -cppcoreguidelines-owning-memory
